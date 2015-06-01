@@ -100,8 +100,20 @@
 
 			Se utiliza para asociar una serie de commits.
 
+	Comando:	git rebase
+
+
+			Comando REBASE -i
+
 	Comando: 	git rebase -i Rama/HASH
 			
+
+
+
+
+
+
+
 
 			Git intetnara fusionarlos automáticamente, no siempre será posible y habra
 			conflictos. Si sucede esto, tendremos que modificar los archivos que el 
