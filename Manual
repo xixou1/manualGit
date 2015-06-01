@@ -131,6 +131,55 @@
 			git reset --hard origin/master
 
 
+		
+
+
+		
+				
+
+
+			COMANDOS UTILES
+
+	
+	
+			Comando GITK
+
+			Es la interfaz gráfica de git.
+
+
+	Comando: 	gitk
+
+
+
+			Comando CONFIG
+
+			Es el comando para configurar git. Algún ejemplo:
+
+			Mostrar sólo una línea por cada commit en la traza.
+
+	Comando:	git config format.pretty oneline
+
+		
+			Configurar tu nombre y tu email.
+
+			Nombre:
+
+	Comando: 	git config --global user.name NombreUsuario
+
+
+			Email:
+
+	Comando:	git config --global user.email DireccionEmail@email.com
+
+
+
+			Comando CONFIG HELP
+
+			Ayuda con los comandos de config.
+
+
+	Comando:	git config --help
+
 
 
 
