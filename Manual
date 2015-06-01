@@ -1,0 +1,79 @@
+			Comando FORK:
+
+			Se usa para copiar el repositorio en tu propio repositorio.
+
+
+
+
+
+			Comando GIT INIT:			
+
+			Para crear un repositorio nuevo, creamos previamente un directorio nuevo,
+			y una vez dentro ejecutamos el comando siguiente:
+
+	Comando: 	git init
+			
+			
+			Comando GIT BRANCH
+
+			Se utiliza para crear una rama. 
+			
+	Comando:	git branch <nombre-rama>
+
+			Para cambiarnos a la rama que acabamos de crear hacemos el siguiente comando.
+
+	Comando:	git checkout <nombre-rama>
+
+			Para crear una rama y cambiarnos directamente a la rama que acabmos de crear
+			podemos usar el comando siguiente.
+
+	Comando:	git checkout -b <nombre-rama>
+
+				
+			Comando GIT CLONE
+
+			Se utiliza para crear una copia local del repositorio.
+
+	Comando:	git clone /repositorio/
+
+
+			En el caso de que sea un servidor remoto, usaremos el siguiente comando.
+
+	Comando:	git clone username@host:/repositorio
+
+			
+
+
+			Directorio de trabajo.
+
+			Git divide el repositorio local en 3 " arboles " diferentes:
+
+		Directorio de trabajo: Contiene los archivos de nuestro repositorio.
+		Index: La zona intermedia.
+		Head: Apunta al último commit que hemos realizado.
+
+			
+
+			Comando ADD y COMMIT
+
+			Se usa ADD  para añadir los cambios al arbol Index, para ello utilizamos el
+			comando:
+
+	Comando:	git add <nombredelarchivo>
+				
+
+			Se usa COMMIT para guardar cambios.
+	
+			
+	Comando: 	git commit -m "mensaje del commit "
+
+
+
+			Comando PUSH
+
+			Se usa para enviar los cambios del arbol Head -> Al repositorio remoto.
+
+	Comando: 	git push origin NombreDeLaRama
+
+
+
