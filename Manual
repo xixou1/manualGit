@@ -77,3 +77,69 @@
 
 
 
+			Comandos PULL y MERGE
+		
+
+			Comando PULL
+
+			Se utiliza para actualizar el repositorio local al commit mas nuevo.
+
+	Comando:	git pull
+
+		
+			Comando MERGE
+			
+			Se utiliza para fusionar otra rama a tu rama activa.
+
+	Comando:	git merge NombreDeLaRama
+
+
+
+			Git intetnara fusionarlos automáticamente, no siempre será posible y habra
+			conflictos. Si sucede esto, tendremos que modificar los archivos que el 
+			propio GIT nos dirá. Una vez modificados, tendremos que añadirlos con el
+			comando "git add nombreDelArchivo".
+
+
+			Para revisar los cambios antes de fusionar, se puede utilizar el siguiente
+			comando.
+
+
+	Comando:	git diff RamaActual RamaALaQueQueremosUnir
+
+
+
+			
+
+			PARA REEMPLAZAR CAMBIOS LOCALES
+
+			Si nos surge esta necesidad, podemos reemplazar los cambios locales usando
+			el comando "git checkout -- NombreDelArchivo".
+
+			Este comando reemplaza los cambios en el directorio de trabajo con el ultimo
+			contenido del HEAD. Los que hayan sido añadidos al index, o los archivos
+			nuevos, se conservaran sin cambios.
+
+
+			En el caso de que quieras deshacer todos los cambios locales y commits,
+			puedes traer la última versión del servidor y apuntar a tu copia local
+			principal con el comando siguiente.
+
+
+	Comando:	git fecth origin
+
+			git reset --hard origin/master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
