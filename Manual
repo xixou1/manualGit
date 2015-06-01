@@ -93,7 +93,15 @@
 
 	Comando:	git merge NombreDeLaRama
 
+			
 
+
+			Comando REBASE
+
+			Se utiliza para asociar una serie de commits.
+
+	Comando: 	git rebase -i Rama/HASH
+			
 
 			Git intetnara fusionarlos automáticamente, no siempre será posible y habra
 			conflictos. Si sucede esto, tendremos que modificar los archivos que el 
@@ -106,6 +114,19 @@
 
 
 	Comando:	git diff RamaActual RamaALaQueQueremosUnir
+
+
+
+
+
+			Comando STATUS
+
+			Sirve para ver el estado del directorio de trabajo.
+
+	Comando:	git status
+
+
+
 
 
 
